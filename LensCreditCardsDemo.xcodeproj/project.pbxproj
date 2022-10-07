@@ -10,10 +10,21 @@
 		934011FF025F7909343DCFAF /* Pods_LensCreditCardsDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3C1C9EB776AFBBF3E8598B9 /* Pods_LensCreditCardsDemo.framework */; };
 		9D53201127EBDCDF0067CE79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D53201027EBDCDF0067CE79 /* AppDelegate.swift */; };
 		9D53201327EBDCDF0067CE79 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D53201227EBDCDF0067CE79 /* SceneDelegate.swift */; };
-		9D53201527EBDCDF0067CE79 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D53201427EBDCDF0067CE79 /* ViewController.swift */; };
+		9D53201527EBDCDF0067CE79 /* LogsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D53201427EBDCDF0067CE79 /* LogsViewController.swift */; };
 		9D53201827EBDCDF0067CE79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D53201627EBDCDF0067CE79 /* Main.storyboard */; };
 		9D53201A27EBDCE00067CE79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D53201927EBDCE00067CE79 /* Assets.xcassets */; };
 		9D53201D27EBDCE00067CE79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D53201B27EBDCE00067CE79 /* LaunchScreen.storyboard */; };
+		9DF9FAF528EFD5A8001A4331 /* String+TitleCased.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF9FAF428EFD5A8001A4331 /* String+TitleCased.swift */; };
+		9DF9FAF728EFD5BC001A4331 /* Color+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF9FAF628EFD5BC001A4331 /* Color+Hex.swift */; };
+		9DF9FAFA28EFD5D1001A4331 /* Keys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF9FAF928EFD5D1001A4331 /* Keys.swift */; };
+		9DF9FAFC28EFD5DD001A4331 /* VeryfiSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF9FAFB28EFD5DD001A4331 /* VeryfiSwitch.swift */; };
+		9DF9FAFF28EFD605001A4331 /* SwitchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF9FAFE28EFD605001A4331 /* SwitchTableViewCell.swift */; };
+		9DF9FB0128EFD611001A4331 /* ValueTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF9FB0028EFD611001A4331 /* ValueTableViewCell.swift */; };
+		9DF9FB0328EFD61E001A4331 /* ColorTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF9FB0228EFD61E001A4331 /* ColorTableViewCell.swift */; };
+		9DF9FB0528EFD651001A4331 /* LensSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF9FB0428EFD651001A4331 /* LensSettingsViewController.swift */; };
+		9DF9FB0728EFD660001A4331 /* LensSettings+TableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF9FB0628EFD660001A4331 /* LensSettings+TableViewDataSource.swift */; };
+		9DF9FB0928EFD66F001A4331 /* LensSettingsViewController+TableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF9FB0828EFD66F001A4331 /* LensSettingsViewController+TableViewDelegate.swift */; };
+		9DF9FB0B28EFD67D001A4331 /* LensSettingsViewController+ColorPickerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF9FB0A28EFD67D001A4331 /* LensSettingsViewController+ColorPickerDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,11 +33,22 @@
 		9D53200D27EBDCDF0067CE79 /* LensCreditCardsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LensCreditCardsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D53201027EBDCDF0067CE79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9D53201227EBDCDF0067CE79 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9D53201427EBDCDF0067CE79 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9D53201427EBDCDF0067CE79 /* LogsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogsViewController.swift; sourceTree = "<group>"; };
 		9D53201727EBDCDF0067CE79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9D53201927EBDCE00067CE79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9D53201C27EBDCE00067CE79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9D53201E27EBDCE00067CE79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DF9FAF428EFD5A8001A4331 /* String+TitleCased.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+TitleCased.swift"; sourceTree = "<group>"; };
+		9DF9FAF628EFD5BC001A4331 /* Color+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Hex.swift"; sourceTree = "<group>"; };
+		9DF9FAF928EFD5D1001A4331 /* Keys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keys.swift; sourceTree = "<group>"; };
+		9DF9FAFB28EFD5DD001A4331 /* VeryfiSwitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VeryfiSwitch.swift; sourceTree = "<group>"; };
+		9DF9FAFE28EFD605001A4331 /* SwitchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchTableViewCell.swift; sourceTree = "<group>"; };
+		9DF9FB0028EFD611001A4331 /* ValueTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValueTableViewCell.swift; sourceTree = "<group>"; };
+		9DF9FB0228EFD61E001A4331 /* ColorTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTableViewCell.swift; sourceTree = "<group>"; };
+		9DF9FB0428EFD651001A4331 /* LensSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LensSettingsViewController.swift; sourceTree = "<group>"; };
+		9DF9FB0628EFD660001A4331 /* LensSettings+TableViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LensSettings+TableViewDataSource.swift"; sourceTree = "<group>"; };
+		9DF9FB0828EFD66F001A4331 /* LensSettingsViewController+TableViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LensSettingsViewController+TableViewDelegate.swift"; sourceTree = "<group>"; };
+		9DF9FB0A28EFD67D001A4331 /* LensSettingsViewController+ColorPickerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LensSettingsViewController+ColorPickerDelegate.swift"; sourceTree = "<group>"; };
 		A3C1C9EB776AFBBF3E8598B9 /* Pods_LensCreditCardsDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LensCreditCardsDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -72,15 +94,50 @@
 		9D53200F27EBDCDF0067CE79 /* LensCreditCardsDemo */ = {
 			isa = PBXGroup;
 			children = (
+				9DF9FAFD28EFD5F9001A4331 /* Cell */,
+				9DF9FAF828EFD5C9001A4331 /* Utils */,
+				9DF9FAF328EFD59C001A4331 /* Extensions */,
 				9D53201027EBDCDF0067CE79 /* AppDelegate.swift */,
 				9D53201227EBDCDF0067CE79 /* SceneDelegate.swift */,
-				9D53201427EBDCDF0067CE79 /* ViewController.swift */,
+				9D53201427EBDCDF0067CE79 /* LogsViewController.swift */,
 				9D53201627EBDCDF0067CE79 /* Main.storyboard */,
 				9D53201927EBDCE00067CE79 /* Assets.xcassets */,
 				9D53201B27EBDCE00067CE79 /* LaunchScreen.storyboard */,
 				9D53201E27EBDCE00067CE79 /* Info.plist */,
+				9DF9FB0428EFD651001A4331 /* LensSettingsViewController.swift */,
+				9DF9FB0628EFD660001A4331 /* LensSettings+TableViewDataSource.swift */,
+				9DF9FB0828EFD66F001A4331 /* LensSettingsViewController+TableViewDelegate.swift */,
+				9DF9FB0A28EFD67D001A4331 /* LensSettingsViewController+ColorPickerDelegate.swift */,
 			);
 			path = LensCreditCardsDemo;
+			sourceTree = "<group>";
+		};
+		9DF9FAF328EFD59C001A4331 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9DF9FAF428EFD5A8001A4331 /* String+TitleCased.swift */,
+				9DF9FAF628EFD5BC001A4331 /* Color+Hex.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		9DF9FAF828EFD5C9001A4331 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				9DF9FAF928EFD5D1001A4331 /* Keys.swift */,
+				9DF9FAFB28EFD5DD001A4331 /* VeryfiSwitch.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		9DF9FAFD28EFD5F9001A4331 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				9DF9FAFE28EFD605001A4331 /* SwitchTableViewCell.swift */,
+				9DF9FB0028EFD611001A4331 /* ValueTableViewCell.swift */,
+				9DF9FB0228EFD61E001A4331 /* ColorTableViewCell.swift */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 		B8091BAF02131B1B8CAE13C1 /* Frameworks */ = {
@@ -226,8 +283,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D53201527EBDCDF0067CE79 /* ViewController.swift in Sources */,
+				9DF9FB0128EFD611001A4331 /* ValueTableViewCell.swift in Sources */,
+				9DF9FAF728EFD5BC001A4331 /* Color+Hex.swift in Sources */,
+				9DF9FAFF28EFD605001A4331 /* SwitchTableViewCell.swift in Sources */,
+				9DF9FAFA28EFD5D1001A4331 /* Keys.swift in Sources */,
+				9D53201527EBDCDF0067CE79 /* LogsViewController.swift in Sources */,
+				9DF9FB0728EFD660001A4331 /* LensSettings+TableViewDataSource.swift in Sources */,
+				9DF9FB0B28EFD67D001A4331 /* LensSettingsViewController+ColorPickerDelegate.swift in Sources */,
+				9DF9FB0328EFD61E001A4331 /* ColorTableViewCell.swift in Sources */,
+				9DF9FB0928EFD66F001A4331 /* LensSettingsViewController+TableViewDelegate.swift in Sources */,
+				9DF9FAFC28EFD5DD001A4331 /* VeryfiSwitch.swift in Sources */,
 				9D53201127EBDCDF0067CE79 /* AppDelegate.swift in Sources */,
+				9DF9FB0528EFD651001A4331 /* LensSettingsViewController.swift in Sources */,
+				9DF9FAF528EFD5A8001A4331 /* String+TitleCased.swift in Sources */,
 				9D53201327EBDCDF0067CE79 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
