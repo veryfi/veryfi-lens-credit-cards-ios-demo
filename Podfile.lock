@@ -1,0 +1,25 @@
+PODS:
+  - AWSCore (2.28.0)
+  - AWSS3 (2.28.0):
+    - AWSCore (= 2.28.0)
+  - VeryfiLens-CreditCards (1.6.5.4):
+    - AWSS3
+
+DEPENDENCIES:
+  - VeryfiLens-CreditCards (= 1.6.5.4)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - AWSCore
+    - AWSS3
+  https://repo.veryfi.com/shared/lens/veryfi-lens-podspec.git:
+    - VeryfiLens-CreditCards
+
+SPEC CHECKSUMS:
+  AWSCore: 0ebe9ba8a459893cdf268ce0bae61875efd0182b
+  AWSS3: 40a2bed039c432e580f1d4b4f740ca80f0610a9e
+  VeryfiLens-CreditCards: af9426165ece343b9321627bdb486572b22b8c4d
+
+PODFILE CHECKSUM: 0bdd667fc02d0d7ad0456424832134814b8d5774
+
+COCOAPODS: 1.11.3
