@@ -17,6 +17,8 @@ Veryfi Lens is a Framework: a self-contained, reusable chunks of code and resour
 
 Lens is built in native code and optimized for fast performance, clean user experience and low memory usage.
 
+![credit](https://user-images.githubusercontent.com/30441118/195658823-83624c07-de1f-46ab-a04c-04dfb04e0292.gif)
+
 You can read further about Lens in Veryfi's dedicated page: https://www.veryfi.com/lens/
 
 ## Table of content
@@ -25,9 +27,6 @@ You can read further about Lens in Veryfi's dedicated page: https://www.veryfi.c
 3. [Configuration](#configuration)
 4. [Other platforms](#other_platforms)
 5. [Get in contact with our team](#contact)
-
-## Veryfi Lens iOS Example <a name="example"></a>
-![gif-creditcards](https://user-images.githubusercontent.com/30237430/162520452-39255f06-889d-4b32-9d8a-ae1f9d48937d.gif)
 
 ## Other Lens iOS Examples <a name="examples"></a>
 This is an example of how to use Veryfi Lens Credit Cards in your app, you can find the developer documentation [here](iOSLensCreditCards.pdf).
