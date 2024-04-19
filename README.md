@@ -32,7 +32,8 @@ You can watch our video:
 ## Veryfi Lens Credit Cards iOS Example <a name="example"></a>
 This is an example of how to use Veryfi Lens Credit Cards in your app, you can find the developer documentation [here](https://app.veryfi.com/lens/docs/ios/).
 
-![credit](https://user-images.githubusercontent.com/30441118/195658823-83624c07-de1f-46ab-a04c-04dfb04e0292.gif)
+![credit](https://github.com/veryfi/veryfi-lens-credit-cards-ios-demo/assets/2013102/618c25a3-89d3-497e-af3d-445a27d9ad6d)
+
 
 ## How to add Veryfi Lens Credit Cards to your project <a name="cocoapods"></a>
 
