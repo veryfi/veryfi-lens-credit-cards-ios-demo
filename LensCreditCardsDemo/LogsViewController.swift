@@ -29,7 +29,7 @@ class LogsViewController: UIViewController {
         // Specific document types for this demo (VeryfiLens-CreditCards)
         settings.moreMenuIsOn = true
         settings.autoCaptureIsOn = true
-        settings.saveLogIsOn = true
+        settings.saveLogsIsOn = true
         settings.showDocumentTypes = true
         settings.documentTypes = ["credit_card"]
         settings.shareLogsIsOn = true
