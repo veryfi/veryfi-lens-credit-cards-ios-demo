@@ -2,6 +2,7 @@
 name: veryfi-lens-ios-credit-cards-integrate
 description: >-
   Integrates the Veryfi Lens iOS Credit Cards UI SDK. Covers pod VeryfiLens-CreditCards, on-device .inApp extraction, VeryfiLensSettings, the Lens camera, and credit-card success keys. Use when scanning credit cards with the Lens camera UI on iOS. Card data stays on device and is never sent to the backend. No dedicated SPM repo is published.
+  Covers Lens analytics events and notification subscription (events.md).
 ---
 
 # Veryfi Lens iOS Credit Cards
@@ -64,6 +65,7 @@ Read one level deep, and only inside this folder:
 - [implementation.md](implementation.md) — credentials, configure, present, Files and gallery, uploadImages, utils
 - [settings.md](settings.md) — recipe and the public settings catalog
 - [callbacks.md](callbacks.md) — delegate payloads
+- [events.md](events.md) — analytics events, metrics, and notification subscription
 - [troubleshooting.md](troubleshooting.md) — symptoms and conflicts
 - [clarifications.md](clarifications.md) — Unconfirmed items
 - [checklist.md](checklist.md) — done when
@@ -110,3 +112,7 @@ When generating host code, produce:
 3. One presentation path
 4. The recipe’s `VeryfiLensSettings` mutations, with a one-line comment on each non-obvious flag
 5. A short conflict note if any residual risk remains
+
+## Analytics and metrics
+
+Lens already records interaction events. When the host wants those metrics, subscribe as in [events.md](events.md). Use the event names listed there. Do not invent names. On Android, register `com.veryfi.lens.VeryfiLensSecureAnalyticsEvent`, not the deprecated `com.veryfi.lens.VeryfiLensAnalyticsEvent`. A plugin host calls the plugin observe API instead of registering that broadcast itself.
